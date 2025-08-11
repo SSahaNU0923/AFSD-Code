@@ -18,3 +18,5 @@ Paper: Liao, S., Golgoon, A., Mozaffar, M., & Cao, J. (2023). Efficient GPU-acce
 The current implementation modifies the orginal source code, adds the new thermal model, and implements for AFSD simulation. 
 
 To understand how to generate the toolpath and geometry file, please refer to the original distribution: https://github.com/NU-IDEAS-Lab/ded_dt_thermomechanical_solver
+
+The input geometry is provided for one case as representative case. Other cases will be released upon publication. 
