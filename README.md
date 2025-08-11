@@ -16,3 +16,5 @@ Additional programming by Rujing Zha and Anthony Goeckner.
 Paper: Liao, S., Golgoon, A., Mozaffar, M., & Cao, J. (2023). Efficient GPU-accelerated thermomechanical solver for residual stress prediction in additive manufacturing. Computational Mechanics, 71(5), 879-893
 
 The current implementation modifies the orginal source code, adds the new thermal model, and implements for AFSD simulation. 
+
+To understand how to generate the toolpath and geometry file, please refer to the original distribution: https://github.com/NU-IDEAS-Lab/ded_dt_thermomechanical_solver
