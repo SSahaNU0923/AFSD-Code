@@ -1,3 +1,12 @@
+#------------------------------------------------------------------------------
+# This file is part of AFSD-Code, adapted from:
+# AM_Thermomechancial_Solver by Shuheng Liao
+# https://github.com/ShuhengLiao/AM_Thermomechanical_Solver
+# Orignial Cppyright (c) 2023 Shuheng Liao
+# Modificiations Copyright (c) 2025 Sourav Saha
+# Licensed under the MIT License; see LICENSE file for details
+#------------------------------------------------------------------------------
+
 import sys
 sys.path.append('../../includes')
 import cupy as cp
@@ -211,3 +220,4 @@ output = (
 # Write to file
 with open("results/simulation_log.txt", "w") as file:
     file.write(output)
+
