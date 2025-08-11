@@ -19,4 +19,6 @@ The current implementation modifies the orginal source code, adds the new therma
 
 To understand how to generate the toolpath and geometry file, please refer to the original distribution: https://github.com/NU-IDEAS-Lab/ded_dt_thermomechanical_solver
 
+The current implementation has all the dependecies mentioned and requires the same packages mentioned in https://github.com/NU-IDEAS-Lab/ded_dt_thermomechanical_solver 
+
 The input geometry is provided for one case as representative case. Other cases will be released upon publication. 
