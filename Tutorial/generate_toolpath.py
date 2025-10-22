@@ -1,3 +1,13 @@
+#------------------------------------------------------------------------------
+# This file is part of AFSD-Code, adapted from:
+# AM_Thermomechancial_Solver by Shuheng Liao
+# https://github.com/ShuhengLiao/AM_Thermomechanical_Solver
+# Orignial Cppyright (c) 2023 Shuheng Liao
+# Modificiations Copyright (c) 2025 Sourav Saha
+# Licensed under the MIT License; see LICENSE file for details
+#------------------------------------------------------------------------------
+
+
 def generate_toolpath(travel_speed_mm_min, dwell_time_s, num_layers, layer_length, z_increment):
     travel_speed = travel_speed_mm_min / 60.0  # mm/s
     dt = 0.1  # initial positioning time
@@ -44,4 +54,5 @@ def generate_toolpath(travel_speed_mm_min, dwell_time_s, num_layers, layer_lengt
     print("Toolpath saved to 'toolpath.crs'")
 
 # Now call the function AFTER it's defined
+
 generate_toolpath(travel_speed_mm_min=100, dwell_time_s=60, num_layers=4, layer_length=200, z_increment=3)
